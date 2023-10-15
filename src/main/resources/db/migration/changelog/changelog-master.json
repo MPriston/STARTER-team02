@@ -1,0 +1,25 @@
+{ "databaseChangeLog": [
+    {
+        "changeSet": {
+            "id": "1",
+            "author": "matt",
+            "changes": [
+                {
+                    "addColumn":{
+                        "tableName":"UCSBDININGCOMMONS",
+                        "columns":[
+                            {
+                                "column":{
+                                    "name":"TEST",
+                                    "type":"BOOLEAN"
+                                    
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+           
+    }
+]}
