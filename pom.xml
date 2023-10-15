@@ -75,8 +75,9 @@
     <dependency>
       <groupId>org.liquibase</groupId>
       <artifactId>liquibase-maven-plugin</artifactId>
-      <version>4.2.0</version>
+      <version>3.8.0</version>
     </dependency>
+    
 
     <dependency>
       <groupId>org.springframework.cloud</groupId>
@@ -297,7 +298,7 @@
       <plugin>
         <groupId>org.liquibase</groupId>
         <artifactId>liquibase-maven-plugin</artifactId>
-        <version>4.2.0</version>
+        <version>3.8.0</version>
         <configuration>
           <propertyFile>src/main/resources/liquibase.properties</propertyFile>
         </configuration>
