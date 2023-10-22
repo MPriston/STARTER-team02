@@ -2,7 +2,7 @@
     {
         "changeSet": {
           "id": "1697389100055-1",
-          "author": "matt (generated)",
+          "author": "matt",
           "changes": [
             {
               "createTable": {
