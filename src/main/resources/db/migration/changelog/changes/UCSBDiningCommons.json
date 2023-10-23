@@ -3,6 +3,20 @@
         "changeSet": {
           "id": "1697389100055-2",
           "author": "matt",
+          "preConditions": [
+            {
+              "onFail": "MARK_RAN"
+            },
+            {
+              "not": [
+                {
+                  "tableExists": {
+                    "tableName": "UCSBDININGCOMMONS"
+                  }
+                }
+              ]
+            }
+          ],
           "changes": [
             {
               "createTable": {
